@@ -1,9 +1,11 @@
 import streamlit as st
 import openai
 
+openai.api_key = ""
+
 def page_personal():
     
-    openai.api_key = "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"
+    
 
     def main():
         st.title("Personalized Budgeting Plan")
@@ -54,8 +56,6 @@ def page_personal():
 
 
 def page_family():
-    openai.api_key = "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"
-
     def main():
         st.title("Family Budgeting Plan")
 
