@@ -1,7 +1,7 @@
 import streamlit as st
 import openai
 
-openai.api_key = ""
+openai.api_key = "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"
 
 def page_personal():
     
