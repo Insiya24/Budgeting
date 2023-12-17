@@ -3,7 +3,7 @@ import openai
 
 def page_personal():
     
-    openai.api_key = ""
+    openai.api_key = "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"
 
     def main():
         st.title("Personalized Budgeting Plan")
